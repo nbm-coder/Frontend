@@ -1,9 +1,7 @@
 
 const AdminNavbar = () => {
   return (
-    <div>
-      
-    </div>
+    
   )
 }
 
