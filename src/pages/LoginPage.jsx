@@ -15,7 +15,7 @@ const LoginPage = ({ setIsAuthenticated, isAuthenticated }) => {
   const getHomeRoute = useCallback((role) => {
     switch (role) {
       case "admin":
-        return "/admin-home";
+        return "/admin/dashboard";
       case "rental":
         return "/rental-home";
       case "user":
